@@ -17,7 +17,7 @@ html{
  #header{
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(background.png);
     background-position: center;
     background-size: cover;
  }
@@ -357,7 +357,7 @@ nav .fa-solid{
 /* responsive design css */
 @media only screen and (max-width: 600px) {
    #header{
-      background-image: url("/images/phone-background.png");
+      background-image: url("phone-background.png");
    }
    .header-text{
       margin-top: 100%;
