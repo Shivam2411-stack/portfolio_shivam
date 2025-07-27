@@ -16,7 +16,5 @@ Welcome to my personal portfolio website — a digital space that reflects my jo
 - **HTML5** – Semantic structure
 - **CSS3** – Custom styling with animations
 - **JavaScript (Vanilla)** – For interactivity and dynamic behavior
-- *(Optional: Font Awesome / AOS / Typed.js if you've used them)*
 
-## 📁 Folder Structure
 
