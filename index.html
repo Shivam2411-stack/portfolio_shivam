@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/user.png" type="image/x-icon">
+    <title>Portfolio | Shivam</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <img src="images/logo.png" class="logo" />
+      <ul id="sidemenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header">
+      <div class="container">
+        <div class="header-text">
+          <p style="font-weight: 300">Front-End/Web Developer</p>
+          <h1>
+            Hi, I'm <span>Shivam</span> <br />
+            Pal From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="aboutcol-1">
+            <img src="images/pp.png" />
+          </div>
+          <div class="aboutcol-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>
+              Shivam Pal – Front-End Developer | Java & Python Specialist |
+              Designer & Photographer
+            </p>
+            <br />
+            <p>
+              👋 Hello! I am a <b>Computer Science student</b> specializing in
+              <b>front-end development</b>, with expertise in
+              <b>Java (Swing & JDBC), Python, and prompt engineering</b>. <br />
+              My focus is on crafting
+              <b>efficient, user-friendly interfaces</b> and developing
+              <b>GUI applications with seamless database integration</b>.
+              <br /><br />
+
+              Beyond development, I have a strong passion for
+              <b>visual design</b>. <br />
+              I create professional
+              <b>posters, banners, and social media graphics</b> using
+              <b>Canva</b>, blending creativity with technical precision. <br />
+              Additionally, I explore <b>photography</b>, particularly in
+              <b>nature and macro photography</b>, along with
+              <b>photo editing and enhancement</b> to produce high-quality
+              visuals. <br /><br />
+
+              With a keen eye for detail and a passion for innovation, I am
+              committed to delivering
+              <b>engaging digital experiences</b> that merge functionality with
+              aesthetics.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages:</span><br />Java, Python, Python
+                  with DSA, <br />
+                  C, C++ with OOPs.
+                </li>
+                <li>
+                  <span>Frontend:</span><br />
+                  HTML5, CSS3, JavaScript
+                </li>
+                <li>
+                  <span>Backend:</span><br />
+                  Java (Swing for GUI, JDBC for database connectivity)
+                </li>
+                <li><span>Version Control:</span><br />Git & GitHub</li>
+                <li><span>Database:</span><br />SQL, MySQL, PLSQL</li>
+                <li>
+                  <span>Graphics Designing/Editing:</span> <br />
+                  Canva, Adobe Photoshop, Adobe Illustrator
+                </li>
+                <li>
+                  <span>Photography</span> <br />
+                  Nature, Macro Photography
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Present</span><br />
+                  Founder & Developer | ASE Facts
+                  <br />
+                  (First Static Website)
+                  <a
+                    href="https://shivam2411-stack.github.io/ASE-Facts-Shivam/index.html"
+                    style="text-decoration: underline; color: rgb(106, 95, 95)"
+                  >
+                    Go>
+                  </a>
+                </li>
+
+                <li>
+                  <span>2023 - 2024</span><br />
+                  Open-Source Contributor | GitHub Projects
+                </li>
+                <li>
+                  <span>2023</span><br />
+                  Personal Project | Portfolio Website
+                </li>
+                <li>
+                  <span>2022</span><br />
+                  Self-Learning | Frontend & Backend Development
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bsc. Computer Science:</span><br />Mumbai Universty
+                  (current) under NEP expected in 2027
+                </li>
+                <li>
+                  <span>12th Class with Science Stream:</span><br />
+                  Eden High School and Jr.College 2021, 75%
+                </li>
+                <li>
+                  <span>High School (10th Class):</span><br />Eden High School
+                  2019, 60%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services section-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development Services</h2>
+            <br />
+            <ul>
+              <li>Custom Website Development (HTML5, CSS3, JavaScript)</li>
+              <li>
+                Frontend Development (Responsive and interactive UI design)
+              </li>
+              <li>Website Optimization & Performance Enhancement</li>
+            </ul>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Software and Programming</h2>
+            <ul>
+              <li>
+                Creating GUI Applications using Java Swing & JDBC for Database
+                Integration
+              </li>
+              <li>Python Scripting & Automation</li>
+              <li>Database Management (SQL, MySQL, PLSQL)</li>
+              <li>Version Control (Git & GitHub integration)</li>
+            </ul>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-object-group"></i>
+            <h2>Design & Graphics</h2>
+            <ul>
+              <li>Logos & Branding (Canva, Photoshop, Illustrator)</li>
+              <li>Social Media & Marketing Graphics</li>
+              <li>Posters, Banners & Flyers (Canva)</li>
+              <li>Photo Editing & Retouching</li>
+            </ul>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-camera"></i>
+            <h2>Photography</h2>
+            <ul>
+              <li>Nature & Macro Photography</li>
+              <li>Professional Image Enhancement</li>
+            </ul>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3 style="text-transform: uppercase">Weather WebApp</h3>
+              <p>
+                Real-time weather web app with day/night theme changes and
+                responsive design for a smooth user experience.
+              </p>
+              <a href="https://shivam2411-stack.github.io/mausam_jankari/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3 style="text-transform: uppercase">Portfolio Website</h3>
+              <p>
+                A responsive, custom-designed website that showcases my projects
+                and skills — built with clean code, creative UI, and a bit of
+                personality.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3 style="text-transform: uppercase">Number Bubble Game</h3>
+              <p>
+                A clean, responsive UI template designed using advanced CSS for
+                book/library-themed platforms.
+              </p>
+              <a href="https://shivam2411-stack.github.io/bubble_game/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Get in Touch</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> nandalalpal420@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +91 9769******</p>
+            <div class="social-icons">
+              <a href="www.linkedin.com/in/shivam-pal-1025b7285"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <!-- <a href=""><i class="fa-brands fa-square-x-twitter"></i></a> -->
+              <a
+                href="https://www.facebook.com/people/Shivam-Pal/pfbid02sY38h54DqQb9GqW1BhQWQYM2X8TfhapccRvzihMsFo8Cv2uLRSjJjV3YsUfym27Dl/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/shivam2411_03/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+            <a href="Shivam_CV.pdf" download class="btn btn1">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn1">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Alpha. All rights reserved.</p>
+      </div>
+    </section>
+      <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzPk-A58AXDp9oOvjzOzH3v54IjWPHu87SR91FFFz29cv4iwKnKg_tpZgiyd7337-540A/exec';
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully."
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+</script>
+  </body>
+</html>
